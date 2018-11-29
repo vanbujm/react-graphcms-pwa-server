@@ -1,12 +1,12 @@
 {
-  "name": "react-contentful-server",
+  "name": "react-graphcms-server",
   "version": "1.0.0",
-  "description": "Server for react-contentful-pwa",
+  "description": "Server for react-graphcms-pwa",
   "main": "index.js",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "dev": "cd .. && concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
     "body-parser": "1.18.3",
