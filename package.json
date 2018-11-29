@@ -1,0 +1,21 @@
+{
+  "name": "react-contentful-server",
+  "version": "1.0.0",
+  "description": "Server for react-contentful-pwa",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "4.1.0"
+  },
+  "repository": "https://github.com/vanbujm/react-contenful-pwa.git",
+  "author": "Jon Van Buren",
+  "license": "MIT"
+}
