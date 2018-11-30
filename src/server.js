@@ -5,7 +5,7 @@ const { ApolloServer } = require('apollo-server-express');
 import { HttpLink } from 'apollo-link-http';
 import { json, urlencoded } from 'body-parser';
 import depthLimit from 'graphql-depth-limit';
-
+import cors from 'cors';
 import logging from './logging';
 
 const PORT = 4000;
@@ -16,6 +16,7 @@ async function run() {
   app.use(json());
   app.use(urlencoded({ extended: true }));
   app.use(logging);
+  app.use(cors());
 
   // 1. Create Apollo Link that's connected to the underlying GraphQL API
   const link = new HttpLink({
