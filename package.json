@@ -2,18 +2,33 @@
   "name": "react-graphcms-server",
   "version": "1.0.0",
   "description": "Server for react-graphcms-pwa",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "client": "cd client && yarn start",
-    "server": "nodemon server.js",
-    "dev": "cd .. && concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "client": "cd ../client && yarn start",
+    "server": "nodemon --exec yarn run babel-node -- server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
+    "apollo-link-http": "1.5.7",
+    "apollo-server": "2.2.4",
     "body-parser": "1.18.3",
-    "express": "4.16.4"
+    "chalk": "2.4.1",
+    "express": "4.16.4",
+    "graphql": "14.0.2",
+    "graphql-tools": "4.0.3",
+    "morgan": "1.9.1",
+    "node-fetch": "2.3.0"
   },
   "devDependencies": {
-    "concurrently": "4.1.0"
+    "@babel/cli": "7.1.5",
+    "@babel/core": "7.1.6",
+    "@babel/node": "7.0.0",
+    "@babel/preset-env": "7.1.6",
+    "concurrently": "4.1.0",
+    "eslint": "5.9.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "6.4.0",
+    "prettier": "1.15.2"
   },
   "repository": "https://github.com/vanbujm/react-contenful-pwa.git",
   "author": "Jon Van Buren",
