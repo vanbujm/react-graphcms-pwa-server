@@ -17,6 +17,7 @@
     "chalk": "2.4.1",
     "express": "4.16.4",
     "graphql": "14.0.2",
+    "graphql-depth-limit": "1.1.0",
     "graphql-tools": "4.0.3",
     "morgan": "1.9.1",
     "node-fetch": "2.3.0"

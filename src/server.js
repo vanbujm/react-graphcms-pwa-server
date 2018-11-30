@@ -4,6 +4,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 import { HttpLink } from 'apollo-link-http';
 import { json, urlencoded } from 'body-parser';
+import depthLimit from 'graphql-depth-limit';
 
 import logging from './logging';
 
@@ -33,7 +34,8 @@ async function run() {
 
   // 4. Create and start proxy server based on the executable schema
   const server = new ApolloServer({
-    schema: executableSchema
+    schema: executableSchema,
+    validationRules: [depthLimit(5)]
   });
 
   server.applyMiddleware({ app });
