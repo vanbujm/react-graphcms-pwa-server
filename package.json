@@ -2,10 +2,12 @@
   "name": "react-graphcms-server",
   "version": "1.0.0",
   "description": "Server for react-graphcms-pwa",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "client": "cd ../client && yarn start",
-    "server": "nodemon --exec yarn run babel-node -- server.js",
+    "build": "babel src -s -D -d dist",
+    "server": "nodemon --exec yarn run babel-node -- src/server.js",
+    "start": "node dist/server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {

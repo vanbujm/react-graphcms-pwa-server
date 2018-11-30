@@ -3,33 +3,18 @@ import { introspectSchema, makeRemoteExecutableSchema } from 'apollo-server';
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 import { HttpLink } from 'apollo-link-http';
-import chalk from 'chalk';
-import morgan from 'morgan';
 import { json, urlencoded } from 'body-parser';
 
-const PORT = 4000;
-const statusOk = status => status >= 200 && status < 300;
-const formatStatusCode = status =>
-  chalk`{${statusOk(status) ? 'blue' : 'red'}.bold ${status}}`;
+import logging from './logging';
 
-const morganChalk = morgan((tokens, req, res) =>
-  [
-    chalk`{green.bold ${tokens.method(req, res)}}`,
-    formatStatusCode(tokens.status(req, res)),
-    chalk`{white ${tokens.url(req, res)}}`,
-    chalk`{yellow ${tokens['response-time'](req, res)} ms}`,
-    req.body !== undefined
-      ? chalk`\n    {cyan.bold BODY} {magenta ${JSON.stringify(req.body)}}`
-      : null
-  ].join(' ')
-);
+const PORT = 4000;
 
 async function run() {
   const app = express();
 
   app.use(json());
   app.use(urlencoded({ extended: true }));
-  app.use(morganChalk);
+  app.use(logging);
 
   // 1. Create Apollo Link that's connected to the underlying GraphQL API
   const link = new HttpLink({
@@ -52,11 +37,6 @@ async function run() {
   });
 
   server.applyMiddleware({ app });
-
-  app.use((req, res, next) => {
-    console.log(res.getHeaders());
-    next();
-  });
 
   app.listen({ port: PORT }, () =>
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`)
