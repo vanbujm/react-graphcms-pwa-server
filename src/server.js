@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { introspectSchema, makeRemoteExecutableSchema } from 'apollo-server';
-const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
+import express from 'express';
+import { ApolloServer } from 'apollo-server-express';
 import { HttpLink } from 'apollo-link-http';
 import { json, urlencoded } from 'body-parser';
 import depthLimit from 'graphql-depth-limit';
