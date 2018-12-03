@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2015 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a08.nexus.opta.net
+     production time:    20150702T110651,954Z
+     production module:  Opta::Feed::XML::RugbyUnion::RU1
+-->
+<fixtures>
+  <fixture id="115014" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-05T18:45:00+0000" game_date="20140905" group="1" group_name="1" leg="1" live_scores="11" public="1" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="" home_or_away="home" score="53" team_id="1400" />
+    <team eighty_min_score="" home_or_away="away" score="6" team_id="1100" />
+  </fixture>
+  <fixture id="115015" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-06T13:00:00+0000" game_date="20140906" group="1" group_name="1" leg="1" live_scores="1" public="0" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="20" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="29" team_id="1000" />
+  </fixture>
+  <fixture id="115016" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-06T13:00:00+0000" game_date="20140906" group="1" group_name="1" leg="1" live_scores="11" public="1" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Twickenham" venue_id="38">
+    <team eighty_min_score="" home_or_away="home" score="34" team_id="1500" />
+    <team eighty_min_score="" home_or_away="away" score="28" team_id="1550" />
+  </fixture>
+  <fixture id="115011" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-06T14:00:00+0000" game_date="20140906" group="1" group_name="1" leg="1" live_scores="1" public="0" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="36" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="17" team_id="1350" />
+  </fixture>
+  <fixture id="115012" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-06T15:30:00+0000" game_date="20140906" group="1" group_name="1" leg="1" live_scores="11" public="1" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="16:30:00" venue="Twickenham" venue_id="38">
+    <team eighty_min_score="" home_or_away="home" score="15" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="20" team_id="1150" />
+  </fixture>
+  <fixture id="115013" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-07T13:00:00+0000" game_date="20140907" group="1" group_name="1" leg="1" live_scores="11" public="1" round="1" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="0" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="52" team_id="84" />
+  </fixture>
+  <fixture id="115024" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-12T18:45:00+0000" game_date="20140912" group="1" group_name="1" leg="1" live_scores="11" public="1" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="0" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="39" team_id="1500" />
+  </fixture>
+  <fixture id="115021" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-13T14:00:00+0000" game_date="20140913" group="1" group_name="1" leg="1" live_scores="1" public="0" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="53" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="26" team_id="78" />
+  </fixture>
+  <fixture id="115023" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-13T14:00:00+0000" game_date="20140913" group="1" group_name="1" leg="1" live_scores="1" public="0" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="34" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="27" team_id="1450" />
+  </fixture>
+  <fixture id="115022" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-13T14:15:00+0000" game_date="20140913" group="1" group_name="1" leg="1" live_scores="11" public="1" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="20" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="1250" />
+  </fixture>
+  <fixture id="115026" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-14T13:00:00+0000" game_date="20140914" group="1" group_name="1" leg="1" live_scores="11" public="1" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Adams Park" venue_id="25">
+    <team eighty_min_score="" home_or_away="home" score="20" team_id="1550" />
+    <team eighty_min_score="" home_or_away="away" score="16" team_id="1400" />
+  </fixture>
+  <fixture id="115025" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-14T14:00:00+0000" game_date="20140914" group="1" group_name="1" leg="1" live_scores="1" public="0" round="2" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="18" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="20" team_id="1300" />
+  </fixture>
+  <fixture id="115032" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-19T18:45:00+0000" game_date="20140919" group="1" group_name="1" leg="1" live_scores="11" public="1" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="22" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="25" team_id="84" />
+  </fixture>
+  <fixture id="115036" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-20T13:00:00+0000" game_date="20140920" group="1" group_name="1" leg="1" live_scores="1" public="0" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="46" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="8" team_id="78" />
+  </fixture>
+  <fixture id="115033" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-20T14:00:00+0000" game_date="20140920" group="1" group_name="1" leg="1" live_scores="1" public="0" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="26" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="23" team_id="1550" />
+  </fixture>
+  <fixture id="115034" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-20T14:00:00+0000" game_date="20140920" group="1" group_name="1" leg="1" live_scores="1" public="0" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="32" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="36" team_id="1500" />
+  </fixture>
+  <fixture id="115031" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-20T14:15:00+0000" game_date="20140920" group="1" group_name="1" leg="1" live_scores="11" public="1" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="45" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="0" team_id="1250" />
+  </fixture>
+  <fixture id="115035" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-21T13:00:00+0000" game_date="20140921" group="1" group_name="1" leg="1" live_scores="11" public="1" round="3" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="10" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="35" team_id="1400" />
+  </fixture>
+  <fixture id="115043" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-26T18:45:00+0000" game_date="20140926" group="1" group_name="1" leg="1" live_scores="11" public="1" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="10" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="46" team_id="1100" />
+  </fixture>
+  <fixture id="115042" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-27T14:00:00+0000" game_date="20140927" group="1" group_name="1" leg="1" live_scores="1" public="0" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="19" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="22" team_id="1300" />
+  </fixture>
+  <fixture id="115045" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-27T14:00:00+0000" game_date="20140927" group="1" group_name="1" leg="1" live_scores="1" public="0" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="" home_or_away="home" score="40" team_id="1500" />
+    <team eighty_min_score="" home_or_away="away" score="19" team_id="1450" />
+  </fixture>
+  <fixture id="115044" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-27T14:15:00+0000" game_date="20140927" group="1" group_name="1" leg="1" live_scores="11" public="1" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="" home_or_away="home" score="31" team_id="1400" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="1000" />
+  </fixture>
+  <fixture id="115041" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-28T13:00:00+0000" game_date="20140928" group="1" group_name="1" leg="1" live_scores="11" public="1" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="36" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="13" team_id="1150" />
+  </fixture>
+  <fixture id="115046" comp_id="201" comp_name="Aviva Premiership" datetime="2014-09-28T13:00:00+0000" game_date="20140928" group="1" group_name="1" leg="1" live_scores="1" public="0" round="4" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Adams Park" venue_id="25">
+    <team eighty_min_score="" home_or_away="home" score="35" team_id="1550" />
+    <team eighty_min_score="" home_or_away="away" score="18" team_id="1350" />
+  </fixture>
+  <fixture id="115051" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-03T18:45:00+0000" game_date="20141003" group="1" group_name="1" leg="1" live_scores="11" public="1" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="21" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="11" team_id="1500" />
+  </fixture>
+  <fixture id="115053" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-04T14:00:00+0000" game_date="20141004" group="1" group_name="1" leg="1" live_scores="1" public="0" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="52" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="0" team_id="78" />
+  </fixture>
+  <fixture id="115054" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-04T14:00:00+0000" game_date="20141004" group="1" group_name="1" leg="1" live_scores="1" public="0" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="12" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="19" team_id="1400" />
+  </fixture>
+  <fixture id="115052" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-04T14:15:00+0000" game_date="20141004" group="1" group_name="1" leg="1" live_scores="11" public="1" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="33" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="16" team_id="1250" />
+  </fixture>
+  <fixture id="115056" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-05T13:00:00+0000" game_date="20141005" group="1" group_name="1" leg="1" live_scores="11" public="1" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="25" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="14" team_id="1550" />
+  </fixture>
+  <fixture id="115055" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-05T14:00:00+0000" game_date="20141005" group="1" group_name="1" leg="1" live_scores="1" public="0" round="5" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="29" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="84" />
+  </fixture>
+  <fixture id="115062" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-10T18:45:00+0000" game_date="20141010" group="1" group_name="1" leg="1" live_scores="11" public="1" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="22" home_or_away="home" score="22" team_id="1250" />
+    <team eighty_min_score="16" home_or_away="away" score="16" team_id="1150" />
+  </fixture>
+  <fixture id="115063" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-11T13:30:00+0000" game_date="20141011" group="1" group_name="1" leg="1" live_scores="1" public="0" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="3" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="23" team_id="1350" />
+  </fixture>
+  <fixture id="115061" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-11T14:00:00+0000" game_date="20141011" group="1" group_name="1" leg="1" live_scores="1" public="0" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="44" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="1300" />
+  </fixture>
+  <fixture id="115065" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-11T14:00:00+0000" game_date="20141011" group="1" group_name="1" leg="1" live_scores="1" public="0" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="" home_or_away="home" score="28" team_id="1500" />
+    <team eighty_min_score="" home_or_away="away" score="21" team_id="1100" />
+  </fixture>
+  <fixture id="115064" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-11T14:15:00+0000" game_date="20141011" group="1" group_name="1" leg="1" live_scores="11" public="1" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="43" home_or_away="home" score="43" team_id="1400" />
+    <team eighty_min_score="10" home_or_away="away" score="10" team_id="1450" />
+  </fixture>
+  <fixture id="115066" comp_id="201" comp_name="Aviva Premiership" datetime="2014-10-12T13:00:00+0000" game_date="20141012" group="1" group_name="1" leg="1" live_scores="11" public="1" round="6" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Adams Park" venue_id="25">
+    <team eighty_min_score="29" home_or_away="home" score="29" team_id="1550" />
+    <team eighty_min_score="22" home_or_away="away" score="22" team_id="1000" />
+  </fixture>
+  <fixture id="115072" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-14T19:45:00+0000" game_date="20141114" group="1" group_name="1" leg="1" live_scores="11" public="1" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="15" home_or_away="home" score="15" team_id="1100" />
+    <team eighty_min_score="22" home_or_away="away" score="22" team_id="1150" />
+  </fixture>
+  <fixture id="115074" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-14T19:45:00+0000" game_date="20141114" group="1" group_name="1" leg="1" live_scores="1" public="0" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="" home_or_away="home" score="18" team_id="1400" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="84" />
+  </fixture>
+  <fixture id="115075" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-15T12:00:00+0000" game_date="20141115" group="1" group_name="1" leg="1" live_scores="1" public="0" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="12:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="36" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="8" team_id="1300" />
+  </fixture>
+  <fixture id="115071" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-15T17:00:00+0000" game_date="20141115" group="1" group_name="1" leg="1" live_scores="1" public="0" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="17:00:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="23" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="14" team_id="1350" />
+  </fixture>
+  <fixture id="115073" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-16T13:00:00+0000" game_date="20141116" group="1" group_name="1" leg="1" live_scores="11" public="1" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="21" home_or_away="home" score="21" team_id="1250" />
+    <team eighty_min_score="21" home_or_away="away" score="21" team_id="1500" />
+  </fixture>
+  <fixture id="115076" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-16T15:15:00+0000" game_date="20141116" group="1" group_name="1" leg="1" live_scores="11" public="1" round="7" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Adams Park" venue_id="25">
+    <team eighty_min_score="71" home_or_away="home" score="71" team_id="1550" />
+    <team eighty_min_score="7" home_or_away="away" score="7" team_id="78" />
+  </fixture>
+  <fixture id="115082" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-21T19:45:00+0000" game_date="20141121" group="1" group_name="1" leg="1" live_scores="11" public="1" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="12" home_or_away="home" score="12" team_id="1150" />
+    <team eighty_min_score="16" home_or_away="away" score="16" team_id="1450" />
+  </fixture>
+  <fixture id="115085" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-21T20:00:00+0000" game_date="20141121" group="1" group_name="1" leg="1" live_scores="1" public="0" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="20:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="20" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="10" team_id="1100" />
+  </fixture>
+  <fixture id="115081" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-22T15:00:00+0000" game_date="20141122" group="1" group_name="1" leg="1" live_scores="1" public="0" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="31" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="15" team_id="1550" />
+  </fixture>
+  <fixture id="115083" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-22T15:00:00+0000" game_date="20141122" group="1" group_name="1" leg="1" live_scores="1" public="0" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="23" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="33" team_id="1000" />
+  </fixture>
+  <fixture id="115086" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-23T13:00:00+0000" game_date="20141123" group="1" group_name="1" leg="1" live_scores="11" public="1" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="24" home_or_away="home" score="24" team_id="1500" />
+    <team eighty_min_score="31" home_or_away="away" score="31" team_id="1400" />
+  </fixture>
+  <fixture id="115084" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-23T15:15:00+0000" game_date="20141123" group="1" group_name="1" leg="1" live_scores="11" public="1" round="8" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="5" home_or_away="home" score="5" team_id="78" />
+    <team eighty_min_score="26" home_or_away="away" score="26" team_id="1250" />
+  </fixture>
+  <fixture id="115091" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-28T19:45:00+0000" game_date="20141128" group="1" group_name="1" leg="1" live_scores="11" public="1" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="25" home_or_away="home" score="25" team_id="1000" />
+    <team eighty_min_score="6" home_or_away="away" score="6" team_id="1150" />
+  </fixture>
+  <fixture id="115093" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-29T15:00:00+0000" game_date="20141129" group="1" group_name="1" leg="1" live_scores="1" public="0" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="18" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="16" team_id="1550" />
+  </fixture>
+  <fixture id="115092" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-29T16:30:00+0000" game_date="20141129" group="1" group_name="1" leg="1" live_scores="1" public="0" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="16:30:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="27" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="19" team_id="1500" />
+  </fixture>
+  <fixture id="115094" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-30T13:00:00+0000" game_date="20141130" group="1" group_name="1" leg="1" live_scores="11" public="1" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="9" home_or_away="home" score="9" team_id="1300" />
+    <team eighty_min_score="21" home_or_away="away" score="21" team_id="1100" />
+  </fixture>
+  <fixture id="115095" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-30T14:30:00+0000" game_date="20141130" group="1" group_name="1" leg="1" live_scores="1" public="0" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="14" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="43" team_id="1400" />
+  </fixture>
+  <fixture id="115096" comp_id="201" comp_name="Aviva Premiership" datetime="2014-11-30T15:15:00+0000" game_date="20141130" group="1" group_name="1" leg="1" live_scores="11" public="1" round="9" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="13" home_or_away="home" score="13" team_id="1350" />
+    <team eighty_min_score="18" home_or_away="away" score="18" team_id="1450" />
+  </fixture>
+  <fixture id="115104" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-19T19:45:00+0000" game_date="20141219" group="1" group_name="1" leg="1" live_scores="11" public="1" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="18" home_or_away="home" score="18" team_id="1450" />
+    <team eighty_min_score="11" home_or_away="away" score="11" team_id="84" />
+  </fixture>
+  <fixture id="115102" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-20T15:00:00+0000" game_date="20141220" group="1" group_name="1" leg="1" live_scores="1" public="0" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="15" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="7" team_id="1350" />
+  </fixture>
+  <fixture id="115105" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-20T15:00:00+0000" game_date="20141220" group="1" group_name="1" leg="1" live_scores="1" public="0" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="" home_or_away="home" score="78" team_id="1500" />
+    <team eighty_min_score="" home_or_away="away" score="7" team_id="78" />
+  </fixture>
+  <fixture id="115103" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-20T15:15:00+0000" game_date="20141220" group="1" group_name="1" leg="1" live_scores="11" public="1" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="23" home_or_away="home" score="23" team_id="1400" />
+    <team eighty_min_score="19" home_or_away="away" score="19" team_id="1250" />
+  </fixture>
+  <fixture id="115101" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-20T17:30:00+0000" game_date="20141220" group="1" group_name="1" leg="1" live_scores="11" public="1" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="17:30:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="16" home_or_away="home" score="16" team_id="1100" />
+    <team eighty_min_score="39" home_or_away="away" score="39" team_id="1000" />
+  </fixture>
+  <fixture id="115106" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-21T14:00:00+0000" game_date="20141221" group="1" group_name="1" leg="1" live_scores="11" public="1" round="10" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="48" home_or_away="home" score="48" team_id="1550" />
+    <team eighty_min_score="16" home_or_away="away" score="16" team_id="1300" />
+  </fixture>
+  <fixture id="115114" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-26T15:00:00+0000" game_date="20141226" group="1" group_name="1" leg="1" live_scores="1" public="0" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="24" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="9" team_id="78" />
+  </fixture>
+  <fixture id="115111" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-27T14:00:00+0000" game_date="20141227" group="1" group_name="1" leg="1" live_scores="11" public="1" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="31" home_or_away="home" score="31" team_id="1000" />
+    <team eighty_min_score="14" home_or_away="away" score="14" team_id="84" />
+  </fixture>
+  <fixture id="115116" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-27T14:00:00+0000" game_date="20141227" group="1" group_name="1" leg="1" live_scores="1" public="0" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="30" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="32" team_id="1250" />
+  </fixture>
+  <fixture id="115115" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-27T15:00:00+0000" game_date="20141227" group="1" group_name="1" leg="1" live_scores="1" public="0" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="23" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="25" team_id="1500" />
+  </fixture>
+  <fixture id="115113" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-27T16:30:00+0000" game_date="20141227" group="1" group_name="1" leg="1" live_scores="11" public="1" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="16:30:00" venue="Twickenham" venue_id="38">
+    <team eighty_min_score="25" home_or_away="home" score="25" team_id="1150" />
+    <team eighty_min_score="30" home_or_away="away" score="30" team_id="1400" />
+  </fixture>
+  <fixture id="115112" comp_id="201" comp_name="Aviva Premiership" datetime="2014-12-28T14:30:00+0000" game_date="20141228" group="1" group_name="1" leg="1" live_scores="11" public="1" round="11" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="23" home_or_away="home" score="23" team_id="1100" />
+    <team eighty_min_score="30" home_or_away="away" score="30" team_id="1550" />
+  </fixture>
+  <fixture id="115124" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-02T19:45:00+0000" game_date="20150102" group="1" group_name="1" leg="1" live_scores="11" public="1" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="39" home_or_away="home" score="39" team_id="1400" />
+    <team eighty_min_score="31" home_or_away="away" score="31" team_id="1350" />
+  </fixture>
+  <fixture id="115125" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-03T14:00:00+0000" game_date="20150103" group="1" group_name="1" leg="1" live_scores="11" public="1" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="22" home_or_away="home" score="22" team_id="1500" />
+    <team eighty_min_score="6" home_or_away="away" score="6" team_id="1300" />
+  </fixture>
+  <fixture id="115121" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-03T16:30:00+0000" game_date="20150103" group="1" group_name="1" leg="1" live_scores="11" public="1" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="16:30:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="25" home_or_away="home" score="25" team_id="84" />
+    <team eighty_min_score="26" home_or_away="away" score="26" team_id="1100" />
+  </fixture>
+  <fixture id="115122" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-04T14:00:00+0000" game_date="20150104" group="1" group_name="1" leg="1" live_scores="11" public="1" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="17" home_or_away="home" score="17" team_id="1250" />
+    <team eighty_min_score="8" home_or_away="away" score="8" team_id="1000" />
+  </fixture>
+  <fixture id="115126" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-04T14:00:00+0000" game_date="20150104" group="1" group_name="1" leg="1" live_scores="1" public="0" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="" home_or_away="home" score="41" team_id="1550" />
+    <team eighty_min_score="" home_or_away="away" score="16" team_id="1450" />
+  </fixture>
+  <fixture id="115123" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-04T14:30:00+0000" game_date="20150104" group="1" group_name="1" leg="1" live_scores="1" public="0" round="12" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="13" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="24" team_id="1150" />
+  </fixture>
+  <fixture id="115132" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-09T19:45:00+0000" game_date="20150109" group="1" group_name="1" leg="1" live_scores="11" public="1" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="24" home_or_away="home" score="24" team_id="1100" />
+    <team eighty_min_score="23" home_or_away="away" score="23" team_id="1500" />
+  </fixture>
+  <fixture id="115136" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-10T14:00:00+0000" game_date="20150110" group="1" group_name="1" leg="1" live_scores="1" public="0" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="20" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="7" team_id="1400" />
+  </fixture>
+  <fixture id="115131" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-10T15:00:00+0000" game_date="20150110" group="1" group_name="1" leg="1" live_scores="1" public="0" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="39" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="26" team_id="1550" />
+  </fixture>
+  <fixture id="115133" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-10T15:15:00+0000" game_date="20150110" group="1" group_name="1" leg="1" live_scores="11" public="1" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="32" home_or_away="home" score="32" team_id="1150" />
+    <team eighty_min_score="12" home_or_away="away" score="12" team_id="1250" />
+  </fixture>
+  <fixture id="115135" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-11T14:00:00+0000" game_date="20150111" group="1" group_name="1" leg="1" live_scores="11" public="1" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="38" home_or_away="home" score="38" team_id="1350" />
+    <team eighty_min_score="7" home_or_away="away" score="7" team_id="78" />
+  </fixture>
+  <fixture id="115134" comp_id="201" comp_name="Aviva Premiership" datetime="2015-01-11T15:00:00+0000" game_date="20150111" group="1" group_name="1" leg="1" live_scores="1" public="0" round="13" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="28" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="26" team_id="84" />
+  </fixture>
+  <fixture id="115142" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-13T19:45:00+0000" game_date="20150213" group="1" group_name="1" leg="1" live_scores="11" public="1" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="18" home_or_away="home" score="18" team_id="1250" />
+    <team eighty_min_score="15" home_or_away="away" score="15" team_id="1100" />
+  </fixture>
+  <fixture id="115144" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-13T19:45:00+0000" game_date="20150213" group="1" group_name="1" leg="1" live_scores="1" public="0" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="" home_or_away="home" score="15" team_id="1400" />
+    <team eighty_min_score="" home_or_away="away" score="9" team_id="1300" />
+  </fixture>
+  <fixture id="115141" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-14T16:30:00+0000" game_date="20150214" group="1" group_name="1" leg="1" live_scores="1" public="0" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="16:30:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="46" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="17" team_id="1350" />
+  </fixture>
+  <fixture id="115143" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-15T13:00:00+0000" game_date="20150215" group="1" group_name="1" leg="1" live_scores="1" public="0" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="12" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="52" team_id="1450" />
+  </fixture>
+  <fixture id="115145" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-15T13:00:00+0000" game_date="20150215" group="1" group_name="1" leg="1" live_scores="11" public="1" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="34" home_or_away="home" score="34" team_id="1500" />
+    <team eighty_min_score="24" home_or_away="away" score="24" team_id="1000" />
+  </fixture>
+  <fixture id="115146" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-15T14:00:00+0000" game_date="20150215" group="1" group_name="1" leg="1" live_scores="1" public="0" round="14" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="" home_or_away="home" score="37" team_id="1550" />
+    <team eighty_min_score="" home_or_away="away" score="6" team_id="1150" />
+  </fixture>
+  <fixture id="115155" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-20T19:45:00+0000" game_date="20150220" group="1" group_name="1" leg="1" live_scores="11" public="1" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="23" home_or_away="home" score="23" team_id="1350" />
+    <team eighty_min_score="23" home_or_away="away" score="23" team_id="1550" />
+  </fixture>
+  <fixture id="115156" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-21T14:00:00+0000" game_date="20150221" group="1" group_name="1" leg="1" live_scores="1" public="0" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="14" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="10" team_id="1500" />
+  </fixture>
+  <fixture id="115152" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-21T15:00:00+0000" game_date="20150221" group="1" group_name="1" leg="1" live_scores="1" public="0" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="48" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="10" team_id="78" />
+  </fixture>
+  <fixture id="115153" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-21T15:00:00+0000" game_date="20150221" group="1" group_name="1" leg="1" live_scores="1" public="0" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="21" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="32" team_id="84" />
+  </fixture>
+  <fixture id="115151" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-21T15:15:00+0000" game_date="20150221" group="1" group_name="1" leg="1" live_scores="11" public="1" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="13" home_or_away="home" score="13" team_id="1000" />
+    <team eighty_min_score="21" home_or_away="away" score="21" team_id="1400" />
+  </fixture>
+  <fixture id="115154" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-22T14:00:00+0000" game_date="20150222" group="1" group_name="1" leg="1" live_scores="11" public="1" round="15" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="6" home_or_away="home" score="6" team_id="1300" />
+    <team eighty_min_score="12" home_or_away="away" score="12" team_id="1250" />
+  </fixture>
+  <fixture id="115164" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-27T19:45:00+0000" game_date="20150227" group="1" group_name="1" leg="1" live_scores="11" public="1" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="17" home_or_away="home" score="17" team_id="1400" />
+    <team eighty_min_score="13" home_or_away="away" score="13" team_id="1150" />
+  </fixture>
+  <fixture id="115163" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-28T14:30:00+0000" game_date="20150228" group="1" group_name="1" leg="1" live_scores="1" public="0" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="12" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="50" team_id="1300" />
+  </fixture>
+  <fixture id="115162" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-28T15:00:00+0000" game_date="20150228" group="1" group_name="1" leg="1" live_scores="1" public="0" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="28" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="8" team_id="1450" />
+  </fixture>
+  <fixture id="115165" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-28T15:00:00+0000" game_date="20150228" group="1" group_name="1" leg="1" live_scores="1" public="0" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="" home_or_away="home" score="22" team_id="1500" />
+    <team eighty_min_score="" home_or_away="away" score="17" team_id="1350" />
+  </fixture>
+  <fixture id="115161" comp_id="201" comp_name="Aviva Premiership" datetime="2015-02-28T15:15:00+0000" game_date="20150228" group="1" group_name="1" leg="1" live_scores="11" public="1" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="16" home_or_away="home" score="16" team_id="84" />
+    <team eighty_min_score="6" home_or_away="away" score="6" team_id="1000" />
+  </fixture>
+  <fixture id="115166" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-01T13:00:00+0000" game_date="20150301" group="1" group_name="1" leg="1" live_scores="1" public="0" round="16" round_type_id="1" season_id="2015" stage="1" status="Result" time="13:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="" home_or_away="home" score="32" team_id="1550" />
+    <team eighty_min_score="" home_or_away="away" score="21" team_id="1100" />
+  </fixture>
+  <fixture id="115171" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-06T19:45:00+0000" game_date="20150306" group="1" group_name="1" leg="1" live_scores="11" public="1" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="12" home_or_away="home" score="12" team_id="1000" />
+    <team eighty_min_score="3" home_or_away="away" score="3" team_id="1450" />
+  </fixture>
+  <fixture id="115172" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-07T15:00:00+0000" game_date="20150307" group="1" group_name="1" leg="1" live_scores="1" public="0" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="" home_or_away="home" score="74" team_id="84" />
+    <team eighty_min_score="" home_or_away="away" score="19" team_id="78" />
+  </fixture>
+  <fixture id="115174" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-07T15:00:00+0000" game_date="20150307" group="1" group_name="1" leg="1" live_scores="1" public="0" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="26" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="20" team_id="1300" />
+  </fixture>
+  <fixture id="115173" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-07T15:15:00+0000" game_date="20150307" group="1" group_name="1" leg="1" live_scores="11" public="1" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="33" home_or_away="home" score="33" team_id="1100" />
+    <team eighty_min_score="33" home_or_away="away" score="33" team_id="1400" />
+  </fixture>
+  <fixture id="115176" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-08T14:00:00+0000" game_date="20150308" group="1" group_name="1" leg="1" live_scores="11" public="1" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="17" home_or_away="home" score="17" team_id="1550" />
+    <team eighty_min_score="26" home_or_away="away" score="26" team_id="1500" />
+  </fixture>
+  <fixture id="115175" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-08T15:00:00+0000" game_date="20150308" group="1" group_name="1" leg="1" live_scores="1" public="0" round="17" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="12" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="16" team_id="1250" />
+  </fixture>
+  <fixture id="115184" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-27T19:45:00+0000" game_date="20150327" group="1" group_name="1" leg="1" live_scores="11" public="1" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="52" home_or_away="home" score="52" team_id="1400" />
+    <team eighty_min_score="30" home_or_away="away" score="30" team_id="1550" />
+  </fixture>
+  <fixture id="115181" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-28T15:00:00+0000" game_date="20150328" group="1" group_name="1" leg="1" live_scores="1" public="0" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="25" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="18" team_id="84" />
+  </fixture>
+  <fixture id="115182" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-28T15:00:00+0000" game_date="20150328" group="1" group_name="1" leg="1" live_scores="1" public="0" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="22" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="21" team_id="1350" />
+  </fixture>
+  <fixture id="115186" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-28T15:15:00+0000" game_date="20150328" group="1" group_name="1" leg="1" live_scores="11" public="1" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Wembley Stadium" venue_id="149">
+    <team eighty_min_score="42" home_or_away="home" score="42" team_id="1500" />
+    <team eighty_min_score="14" home_or_away="away" score="14" team_id="1150" />
+  </fixture>
+  <fixture id="115185" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-29T13:00:00+0000" game_date="20150329" group="1" group_name="1" leg="1" live_scores="11" public="1" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="23" home_or_away="home" score="23" team_id="1450" />
+    <team eighty_min_score="6" home_or_away="away" score="6" team_id="1100" />
+  </fixture>
+  <fixture id="115183" comp_id="201" comp_name="Aviva Premiership" datetime="2015-03-29T13:30:00+0000" game_date="20150329" group="1" group_name="1" leg="1" live_scores="1" public="0" round="18" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="14" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="29" team_id="1000" />
+  </fixture>
+  <fixture id="115195" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-10T18:45:00+0000" game_date="20150410" group="1" group_name="1" leg="1" live_scores="11" public="1" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="19" home_or_away="home" score="19" team_id="1350" />
+    <team eighty_min_score="29" home_or_away="away" score="29" team_id="1000" />
+  </fixture>
+  <fixture id="115192" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-11T14:00:00+0000" game_date="20150411" group="1" group_name="1" leg="1" live_scores="1" public="0" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="" home_or_away="home" score="29" team_id="1150" />
+    <team eighty_min_score="" home_or_away="away" score="26" team_id="1100" />
+  </fixture>
+  <fixture id="115196" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-11T14:15:00+0000" game_date="20150411" group="1" group_name="1" leg="1" live_scores="11" public="1" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="22" home_or_away="home" score="22" team_id="1500" />
+    <team eighty_min_score="6" home_or_away="away" score="6" team_id="1250" />
+  </fixture>
+  <fixture id="115191" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-12T13:00:00+0000" game_date="20150412" group="1" group_name="1" leg="1" live_scores="11" public="1" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="21" home_or_away="home" score="21" team_id="84" />
+    <team eighty_min_score="10" home_or_away="away" score="10" team_id="1400" />
+  </fixture>
+  <fixture id="115194" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-12T13:30:00+0000" game_date="20150412" group="1" group_name="1" leg="1" live_scores="1" public="0" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="13" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="40" team_id="1550" />
+  </fixture>
+  <fixture id="115193" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-12T14:00:00+0000" game_date="20150412" group="1" group_name="1" leg="1" live_scores="1" public="0" round="19" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="25" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="23" team_id="1450" />
+  </fixture>
+  <fixture id="115201" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-24T18:45:00+0000" game_date="20150424" group="1" group_name="1" leg="1" live_scores="11" public="1" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="43" home_or_away="home" score="43" team_id="1000" />
+    <team eighty_min_score="18" home_or_away="away" score="18" team_id="1300" />
+  </fixture>
+  <fixture id="115205" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-25T13:00:00+0000" game_date="20150425" group="1" group_name="1" leg="1" live_scores="1" public="0" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="23" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="25" team_id="1150" />
+  </fixture>
+  <fixture id="115202" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-25T14:00:00+0000" game_date="20150425" group="1" group_name="1" leg="1" live_scores="1" public="0" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="42" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="40" team_id="1350" />
+  </fixture>
+  <fixture id="115203" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-25T14:00:00+0000" game_date="20150425" group="1" group_name="1" leg="1" live_scores="1" public="0" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="" home_or_away="home" score="38" team_id="1250" />
+    <team eighty_min_score="" home_or_away="away" score="17" team_id="78" />
+  </fixture>
+  <fixture id="115204" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-25T14:15:00+0000" game_date="20150425" group="1" group_name="1" leg="1" live_scores="11" public="1" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="stadium:mk" venue_id="220">
+    <team eighty_min_score="25" home_or_away="home" score="25" team_id="1400" />
+    <team eighty_min_score="20" home_or_away="away" score="20" team_id="1500" />
+  </fixture>
+  <fixture id="115206" comp_id="201" comp_name="Aviva Premiership" datetime="2015-04-26T13:00:00+0000" game_date="20150426" group="1" group_name="1" leg="1" live_scores="11" public="1" round="20" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="36" home_or_away="home" score="36" team_id="1550" />
+    <team eighty_min_score="29" home_or_away="away" score="29" team_id="84" />
+  </fixture>
+  <fixture id="115212" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-08T18:45:00+0000" game_date="20150508" group="1" group_name="1" leg="1" live_scores="11" public="1" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="19:45:00" venue="The Stoop" venue_id="35">
+    <team eighty_min_score="26" home_or_away="home" score="26" team_id="1150" />
+    <team eighty_min_score="27" home_or_away="away" score="27" team_id="1000" />
+  </fixture>
+  <fixture id="115214" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-09T13:00:00+0000" game_date="20150509" group="1" group_name="1" leg="1" live_scores="1" public="0" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="AJ Bell Stadium" venue_id="253">
+    <team eighty_min_score="" home_or_away="home" score="34" team_id="1450" />
+    <team eighty_min_score="" home_or_away="away" score="28" team_id="1350" />
+  </fixture>
+  <fixture id="115211" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-09T14:00:00+0000" game_date="20150509" group="1" group_name="1" leg="1" live_scores="1" public="0" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:00:00" venue="Kingsholm" venue_id="30">
+    <team eighty_min_score="" home_or_away="home" score="35" team_id="1100" />
+    <team eighty_min_score="" home_or_away="away" score="13" team_id="1300" />
+  </fixture>
+  <fixture id="115213" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-09T14:15:00+0000" game_date="20150509" group="1" group_name="1" leg="1" live_scores="1" public="0" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="" home_or_away="home" score="46" team_id="1400" />
+    <team eighty_min_score="" home_or_away="away" score="0" team_id="78" />
+  </fixture>
+  <fixture id="115216" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-09T14:15:00+0000" game_date="20150509" group="1" group_name="1" leg="1" live_scores="11" public="1" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:15:00" venue="Ricoh Arena" venue_id="132">
+    <team eighty_min_score="21" home_or_away="home" score="21" team_id="1550" />
+    <team eighty_min_score="26" home_or_away="away" score="26" team_id="1250" />
+  </fixture>
+  <fixture id="115215" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-10T13:00:00+0000" game_date="20150510" group="1" group_name="1" leg="1" live_scores="11" public="1" round="21" round_type_id="1" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Allianz Park" venue_id="255">
+    <team eighty_min_score="20" home_or_away="home" score="20" team_id="1500" />
+    <team eighty_min_score="24" home_or_away="away" score="24" team_id="84" />
+  </fixture>
+  <fixture id="115221" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="1" public="0" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="" home_or_away="home" score="50" team_id="1000" />
+    <team eighty_min_score="" home_or_away="away" score="30" team_id="1100" />
+  </fixture>
+  <fixture id="115222" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="11" public="1" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Sandy Park" venue_id="209">
+    <team eighty_min_score="44" home_or_away="home" score="44" team_id="84" />
+    <team eighty_min_score="16" home_or_away="away" score="16" team_id="1450" />
+  </fixture>
+  <fixture id="115223" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="11" public="1" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Welford Road" venue_id="37">
+    <team eighty_min_score="22" home_or_away="home" score="22" team_id="1250" />
+    <team eighty_min_score="14" home_or_away="away" score="14" team_id="1400" />
+  </fixture>
+  <fixture id="115224" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="1" public="0" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Madejski Stadium" venue_id="32">
+    <team eighty_min_score="" home_or_away="home" score="40" team_id="1300" />
+    <team eighty_min_score="" home_or_away="away" score="40" team_id="1550" />
+  </fixture>
+  <fixture id="115225" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="1" public="0" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Kassam Stadium" venue_id="254">
+    <team eighty_min_score="" home_or_away="home" score="17" team_id="78" />
+    <team eighty_min_score="" home_or_away="away" score="68" team_id="1500" />
+  </fixture>
+  <fixture id="115226" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-16T14:30:00+0000" game_date="20150516" group="1" group_name="1" leg="1" live_scores="1" public="0" round="22" round_type_id="1" season_id="2015" stage="1" status="Result" time="15:30:00" venue="Kingston Park" venue_id="31">
+    <team eighty_min_score="" home_or_away="home" score="37" team_id="1350" />
+    <team eighty_min_score="" home_or_away="away" score="21" team_id="1150" />
+  </fixture>
+  <fixture id="115231" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-23T13:00:00+0000" game_date="20150523" group="SF" group_name="SF" leg="1" live_scores="11" public="1" round="23" round_type_id="2" season_id="2015" stage="1" status="Result" time="14:00:00" venue="Franklin's Gardens" venue_id="28">
+    <team eighty_min_score="24" home_or_away="home" score="24" team_id="1400" />
+    <team eighty_min_score="29" home_or_away="away" score="29" team_id="1500" />
+  </fixture>
+  <fixture id="115232" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-23T16:00:00+0000" game_date="20150523" group="SF" group_name="SF" leg="1" live_scores="11" public="1" round="23" round_type_id="2" season_id="2015" stage="1" status="Result" time="17:00:00" venue="Recreation Ground" venue_id="33">
+    <team eighty_min_score="47" home_or_away="home" score="47" team_id="1000" />
+    <team eighty_min_score="10" home_or_away="away" score="10" team_id="1250" />
+  </fixture>
+  <fixture id="115241" comp_id="201" comp_name="Aviva Premiership" datetime="2015-05-30T13:30:00+0000" game_date="20150530" group="Final" group_name="Final" leg="1" live_scores="11" public="1" round="24" round_type_id="2" season_id="2015" stage="1" status="Result" time="14:30:00" venue="Twickenham" venue_id="38">
+    <team eighty_min_score="16" home_or_away="home" score="16" team_id="1000" />
+    <team eighty_min_score="28" home_or_away="away" score="28" team_id="1500" />
+  </fixture>
+  <teams>
+    <team id="78" name="London Welsh" />
+    <team id="84" name="Exeter" />
+    <team id="1000" name="Bath" />
+    <team id="1100" name="Gloucester" />
+    <team id="1150" name="Harlequins" />
+    <team id="1250" name="Leicester" />
+    <team id="1300" name="London Irish" />
+    <team id="1350" name="Newcastle" />
+    <team id="1400" name="Northampton" />
+    <team id="1450" name="Sale" />
+    <team id="1500" name="Saracens" />
+    <team id="1550" name="Wasps" />
+  </teams>
+</fixtures>

@@ -6,7 +6,8 @@
   },
   "env": {
     "node": true,
-    "jest": true
+    "jest": true,
+    "es6": true
   },
   "plugins": ["prettier", "you-dont-need-lodash-underscore"],
   "rules": {

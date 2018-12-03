@@ -6,11 +6,15 @@ import { HttpLink } from 'apollo-link-http';
 import { json, urlencoded } from 'body-parser';
 import depthLimit from 'graphql-depth-limit';
 import cors from 'cors';
+import { graphql } from 'graphql';
+
+import updateModels from './updateModels';
 import logging from './logging';
 
 const PORT = 4000;
 
 async function run() {
+  const mutations = await updateModels();
   const app = express();
 
   app.use(json());
@@ -40,6 +44,10 @@ async function run() {
   });
 
   server.applyMiddleware({ app });
+
+  await mutations.forEach(mutation => {
+    graphql(executableSchema, mutation);
+  });
 
   app.listen({ port: PORT }, () =>
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`)
