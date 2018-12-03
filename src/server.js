@@ -3,12 +3,17 @@ import { introspectSchema, makeRemoteExecutableSchema } from 'apollo-server';
 import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { HttpLink } from 'apollo-link-http';
-import { json, urlencoded } from 'body-parser';
+import { json, urlencoded, text } from 'body-parser';
 import depthLimit from 'graphql-depth-limit';
 import cors from 'cors';
 import { graphql } from 'graphql';
 
-import updateModels from './updateModels';
+import updateModels, {
+  createFixtureMutations,
+  createTeamMutations,
+  createVenueMutations,
+  parseOptaXml
+} from './updateModels';
 import logging from './logging';
 
 const PORT = 4000;
@@ -18,9 +23,28 @@ async function run() {
   const app = express();
 
   app.use(json());
+  app.use(text({ type: 'text/xml' }));
   app.use(urlencoded({ extended: true }));
   app.use(logging);
   app.use(cors());
+
+  app.post('/xml', async (req, res) => {
+    const { graphTeams, graphVenues, graphFixtures } = await parseOptaXml(
+      req.body
+    );
+
+    const teamMutations = createTeamMutations(graphTeams);
+    const venueMutations = createVenueMutations(graphVenues);
+    const fixtureMutations = createFixtureMutations(graphFixtures);
+    await Promise.all(
+      [...teamMutations, ...venueMutations, ...fixtureMutations].map(
+        mutation => {
+          return graphql(executableSchema, mutation);
+        }
+      )
+    );
+    res.json({ ok: 200 });
+  });
 
   // 1. Create Apollo Link that's connected to the underlying GraphQL API
   const link = new HttpLink({

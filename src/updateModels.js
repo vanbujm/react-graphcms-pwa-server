@@ -2,15 +2,15 @@ import { readFile } from 'fs';
 import { parseString } from 'xml2js';
 import { camelCase } from 'lodash/string';
 
-export const updateModels = async () => {
-  const readXml = () => {
-    return new Promise((resolve, reject) => {
-      return readFile('./ru1_compfixtures.xml', 'utf8', (err, data) => {
-        return err ? reject(err) : resolve(data);
-      });
+export const readXmlFromFile = () => {
+  return new Promise((resolve, reject) => {
+    return readFile('./ru1_compfixtures.xml', 'utf8', (err, data) => {
+      return err ? reject(err) : resolve(data);
     });
-  };
+  });
+};
 
+export const parseOptaXml = async xmlFile => {
   const parseXml = data => {
     return new Promise((resolve, reject) => {
       return parseString(
@@ -26,7 +26,6 @@ export const updateModels = async () => {
     });
   };
 
-  const xmlFile = await readXml();
   const data = await parseXml(xmlFile);
 
   const xmlTeams = data.fixtures.teams[0].team;
@@ -203,7 +202,10 @@ export const createFixtureMutations = graphFixtures => {
 };
 
 export default async () => {
-  const { graphTeams, graphVenues, graphFixtures } = await updateModels();
+  const xmlFile = await readXmlFromFile();
+  const { graphTeams, graphVenues, graphFixtures } = await parseOptaXml(
+    xmlFile
+  );
 
   const teamMutations = createTeamMutations(graphTeams);
   const venueMutations = createVenueMutations(graphVenues);
