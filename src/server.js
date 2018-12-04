@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import { introspectSchema, makeRemoteExecutableSchema } from 'apollo-server';
+import { RedisCache } from 'apollo-server-redis';
 import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { HttpLink } from 'apollo-link-http';
@@ -64,7 +65,10 @@ async function run() {
   // 4. Create and start proxy server based on the executable schema
   const server = new ApolloServer({
     schema: executableSchema,
-    validationRules: [depthLimit(5)]
+    validationRules: [depthLimit(5)],
+    persistedQueries: {
+      cache: new RedisCache({ host: 'localhost' })
+    }
   });
 
   server.applyMiddleware({ app });
